@@ -588,6 +588,11 @@ header {
   display: none;
 }
 
+.menu-btn:hover {
+  cursor: pointer;
+  fill: #2196f3;
+}
+
 .menu-btn.is-open .menu-btn-close {
   display: block;
 }

@@ -39,9 +39,15 @@ header {
   border: none;
   height: 40px;
   padding: 0;
+  // outline: none;
 
   &-close {
     display: none;
+  }
+
+  &:hover {
+    cursor: pointer;
+    fill: $secondary-accent-color;
   }
 }
 
