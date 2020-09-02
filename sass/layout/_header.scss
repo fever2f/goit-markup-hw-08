@@ -59,19 +59,19 @@ header {
   display: none;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1199px) {
   .page-title {
     font-family: Raleway, sans-serif;
     font-weight: bold;
     font-size: 24px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: var(--title-text-color);
-  }
-}
+    color: $title-text-color;
 
-.page-title-color {
-  color: $secondary-accent-color;
+    &-color {
+      color: $secondary-accent-color;
+    }
+  }
 }
 
 .nav-elements-style .link {
