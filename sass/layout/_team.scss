@@ -1,0 +1,92 @@
+.team-svg {
+  fill: #afb1b8;
+}
+
+.team-member-position {
+  margin-bottom: 16px;
+}
+
+.team-links-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-link {
+  width: 44px;
+  height: 44px;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.team-link:hover {
+  background-color: var(--secondary-accent-color);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.team-link:hover .team-svg {
+  fill: #fff;
+}
+
+.team-links-list li:not(:last-child) {
+  margin-right: 10px;
+}
+
+.about-our-team-list li h4 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.about-our-team-list li p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.about-our-team-list li img {
+  margin-bottom: 30px;
+}
+
+.about-our-team-list {
+  display: flex;
+}
+
+.team {
+  background-color: var(--secondary-background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.about-our-team-list-item {
+  background: var(--primary-background-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  padding-bottom: 30px;
+  flex-basis: calc((100% - 3 * 30px) / 4);
+}
+
+.about-our-team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.about-us-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
