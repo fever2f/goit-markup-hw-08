@@ -13,12 +13,29 @@
   <body>
     <!--Верхняя линия-->
     <header>
-      <div class="container">
-        <div class="header-div">
+      <div class="container header-div">
+        <a class="page-title hover-for-regular-links" href="./index.html">
+          <span class="page-title-color">Web</span>Studio
+        </a>
+        <button
+          class="menu-btn"
+          data-menu-button
+          aria-expanded="false"
+          aria-controls="menu-wrapper"
+        >
+          <svg width="40" height="40">
+            <use
+              class="menu-btn-burger"
+              href="./images/sprite.svg#icon-menu-btn"
+            ></use>
+            <use
+              class="menu-btn-close"
+              href="./images/sprite.svg#icon-close-menu-btn"
+            ></use>
+          </svg>
+        </button>
+        <div class="menu-wrapper" data-menu>
           <nav class="header-nav">
-            <a class="page-title hover-for-regular-links" href="./index.html">
-              <span class="page-title-color">Web</span>Studio
-            </a>
             <ul class="nav-elements-style">
               <li class="nav-studio">
                 <a class="link" href="/"
@@ -69,8 +86,8 @@
       </div>
     </header>
 
-    <main>
-      <!--hero section-->
+    <!--hero section-->
+    <!-- <main>
       <section class="hero section">
         <div class="container">
           <h1 class="hero-tagline">
@@ -81,10 +98,10 @@
             Заказать услугу
           </button>
         </div>
-      </section>
+      </section> -->
 
-      <!-- Особенности  -->
-      <section class="features section">
+    <!-- Особенности  -->
+    <!-- <section class="features section">
         <div class="container">
           <ul class="features-list">
             <li class="features-list-item">
@@ -137,10 +154,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <!-- чем мы занимаемся -->
-      <section class="section about-work">
+    <!-- чем мы занимаемся -->
+    <!-- <section class="section about-work">
         <div class="container">
           <h2 class="about-work-title">Чем мы занимаемся</h2>
           <ul class="about-work-list">
@@ -179,10 +196,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <!-- Наша команда -->
-      <section class="team section">
+    <!-- Наша команда -->
+    <!-- <section class="team section">
         <div class="container">
           <h2 class="about-us-title">Наша команда</h2>
           <ul class="about-our-team-list">
@@ -348,9 +365,9 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!-- постоянные клиенты -->
-      <section class="clients section">
+      </section> -->
+    <!-- постоянные клиенты -->
+    <!-- <section class="clients section">
         <div class="container">
           <h2 class="about-us-title">Постоянные клиенты</h2>
           <ul class="clients-list">
@@ -399,9 +416,9 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
     <!-- footer -->
-    <footer>
+    <!-- <footer>
       <div class="container footer-container">
         <div class="footer-container-1">
           <nav class="footer-nav">
@@ -491,8 +508,10 @@
           </div>
         </div>
       </div>
-    </footer>
-    <div class="backdrop is-hidden" data-modal>
+    </footer> -->
+
+    <!-- modal -->
+    <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button class="modal-close-button" data-modal-close>
           <svg width="11" height="11">
@@ -548,7 +567,8 @@
           </ul>
         </form>
       </div>
-    </div>
+    </div> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
