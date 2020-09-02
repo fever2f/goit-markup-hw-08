@@ -9,7 +9,7 @@
   padding: 60px 0;
 
   transform: translateY(-115%);
-  transition: transform 500ms ease-in-out;
+  transition: transform 250ms ease-in-out;
 }
 
 .menu-wrapper.is-open {
@@ -39,7 +39,7 @@ header {
   border: none;
   height: 40px;
   padding: 0;
-  // outline: none;
+  outline: none;
 
   &-close {
     display: none;
